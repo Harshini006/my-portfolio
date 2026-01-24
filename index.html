@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshini Palanisamy | Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Modern Design Styles */
+        body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background-color: #f0f2f5; color: #333; line-height: 1.7; }
+        
+        /* Gradient Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 4rem 0 6rem 0;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            position: relative;
+        }
+        header h1 { margin: 0; font-size: 3.5rem; font-weight: 600; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        header p { font-size: 1.3rem; color: #e0e0e0; margin-top: 10px; font-weight: 300; }
+
+        /* Social Icons */
+        .social-icons { margin-top: 25px; }
+        .social-icons a {
+            color: #fff; font-size: 1.8rem; margin: 0 15px; display: inline-block; transition: all 0.3s;
+        }
+        .social-icons a:hover { transform: translateY(-5px) scale(1.1); color: #ffeb3b; }
+
+        /* DOWNLOAD BUTTON */
+        .btn-download {
+            display: inline-block; margin-top: 30px; padding: 12px 30px;
+            background-color: #fff; color: #764ba2; font-weight: 600; text-decoration: none;
+            border-radius: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease;
+        }
+        .btn-download:hover { background-color: #ffeb3b; color: #333; transform: translateY(-3px); }
+
+        /* Container */
+        .container { width: 85%; max-width: 1000px; margin: auto; overflow: hidden; padding: 20px; animation: fadeIn 1.5s ease-in-out; margin-top: -50px; position: relative; z-index: 10; }
+        
+        .section {
+            background: #fff; padding: 40px; margin-bottom: 35px; border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); border-top: 5px solid #764ba2;
+        }
+        h2 { color: #4a148c; font-size: 2rem; margin-bottom: 25px; border-bottom: 3px solid #f3e5f5; display: inline-block; }
+
+        /* Skills */
+        .skills-list { list-style: none; padding: 0; }
+        .skills-list li {
+            display: inline-block; background: linear-gradient(to right, #667eea, #764ba2); color: #fff;
+            padding: 10px 20px; margin: 8px; border-radius: 50px; font-weight: 500; font-size: 0.95rem;
+            box-shadow: 0 4px 10px rgba(118, 75, 162, 0.3);
+        }
+        
+        /* UPDATED SOFT SKILLS COLOR (Purple Theme) */
+        .soft-skill { background: linear-gradient(to right, #8e2de2, #4a00e0) !important; }
+
+        /* Projects */
+        .project {
+            background: #fff; border-radius: 12px; padding: 25px; margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08); transition: all 0.3s ease; border: 1px solid #eee;
+        }
+        .project:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); border-color: #764ba2; }
+        .tech-stack { background-color: #f3e5f5; color: #7b1fa2; padding: 5px 10px; border-radius: 5px; font-weight: 600; font-size: 0.85rem; }
+
+        footer { text-align: center; padding: 30px; background-color: #2c3e50; color: #fff; margin-top: 40px; }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @media (max-width: 768px) { .container { width: 90%; margin-top: -30px; } header h1 { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Harshini Palanisamy</h1>
+        <p>AI & Data Science Student | Machine Learning Enthusiast</p>
+        
+        <div class="social-icons">
+            <a href="mailto:harshinipalanisamy06@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+919952655512"><i class="fas fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/harshini-palanisamy-81553a2a3" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Harshini006" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+        <a href="Harshini_Resume.pdf" class="btn-download" download>
+            <i class="fas fa-download"></i> Download Resume
+        </a>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hi! I am a final year <strong>B.Tech AI & Data Science</strong> student. I have a strong foundation in Python, Machine Learning, and Web Technologies. Passionate about building data-driven applications to solve real-world problems.</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li><li>Data Science</li><li>SQL (MySQL)</li><li>Machine Learning</li><li>Deep Learning (CNN)</li><li>Web Scraping</li><li>Flutter</li><li>Git</li>
+            </ul>
+            <br>
+            <h2>Soft Skills</h2>
+            <ul class="skills-list">
+                <li class="soft-skill">Problem Solving</li><li class="soft-skill">Team Collaboration</li><li class="soft-skill">Critical Thinking</li><li class="soft-skill">Adaptability</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Featured Projects</h2>
+            <div class="project">
+                <h3>1. Deepfake Detection Using CNN</h3>
+                <span class="tech-stack">Tech Stack: Python, TensorFlow, OpenCV</span>
+                <p>Developed a Deep Learning model to classify images/videos as 'Real' or 'Fake' using CNN and Transfer Learning. Achieved high accuracy in detecting facial artifacts.</p>
+            </div>
+            <div class="project">
+                <h3>2. E-commerce Product Sentiment Analyzer</h3>
+                <span class="tech-stack">Tech Stack: Python, Selenium, NLP (NLTK)</span>
+                <p>Built an automated scraper to extract Amazon reviews. Applied NLP techniques to analyze customer sentiment (Positive/Negative) and visualized insights using Matplotlib.</p>
+            </div>
+            <div class="project">
+                <h3>3. Smart Trip Planner (Ongoing)</h3>
+                <span class="tech-stack">Tech Stack: Flutter, Firebase, Google Maps API</span>
+                <p>Developing a cross-platform mobile app to generate personalized travel itineraries. Integrating Google Maps for navigation and Firebase for secure authentication.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Harshini Palanisamy. Designed for Placements.</p>
+    </footer>
+
+</body>
+</html>
